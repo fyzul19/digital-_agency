@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: gray;
+  align-items: center;
+}
+.menus {
+  list-style: none;
+  gap: 15px;
+  display: flex;
+  font-style: inherit;
+  font-size: 20px;
+}
+.banner-container {
+  height: 100vh;
+  background-image: url(./digital-agency-b8/asset/image/background.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.color {
+  color: red;
+}
+.title {
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+}
+.description {
+  color: white;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+.btn {
+  padding: 12px 20px;
+  border: none;
+}
+.bg-color {
+  background-color: red;
+  color: white;
+}
