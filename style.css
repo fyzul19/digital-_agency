@@ -51,3 +51,64 @@
   background-color: red;
   color: white;
 }
+.service-container {
+  height: 100vh;
+  background-image: url(./asset/image/footer-bg.png),
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(1, 1, 1, 0.9));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+.icon{
+    width: 70px;
+    margin-bottom: 20px;
+
+}
+.box{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+
+}
+.service-description{
+    width: 500px;
+}
+.first-two-boxe{
+    display: flex;
+    gap: 4px;
+    margin-top: 5px;
+}
+.pavel-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.author-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.name{
+    color: orangered;
+    font-style: italic;
+    font-size: large;
+}
+.btn{
+    color: rgb(242, 227, 227);
+    background-color: red;
+}
